@@ -22,6 +22,9 @@ void sfile(int mas[][N]) {
 }
 
 
+
+
+
 void vruch(int mas[][N]) {
 
 	cout << "Введите эл. матрицы A(5 x 5):" << endl;
@@ -75,6 +78,8 @@ void out(int X[], int mas[][N]) {
 		if (mas[i][i] < min) min = mas[i][i];
 		else if (mas[i][i] > max) max = mas[i][i];
 	}
+
+	cout << endl;
 
 	cout << endl << "Y являющийся средним арифм. главной диагонали равен: " << (max + min) / 2 << endl;
 
